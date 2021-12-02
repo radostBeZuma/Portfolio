@@ -1,0 +1,16 @@
+@import url('../css/important-style.css');
+
+.video__wrap {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.video__text {
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.video__h3 {
+    padding: 20px 0 20px 0;
+}

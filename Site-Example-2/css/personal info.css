@@ -1,0 +1,246 @@
+:root {
+    --primary-color: #082D3A;
+}
+
+.h2 {
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.h3 {
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.h4 {
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.p {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--primary-color);
+     
+}
+
+.n-head {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 100%;
+    color: var(--primary-color);
+}
+
+.p-head {
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: var(--primary-color);
+}
+
+.p-regular {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: var(--primary-color);
+}
+
+.n-regular {
+    font-family: 'Pacifico';
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 100%;
+    color: var(--primary-color);
+}
+
+.toc__wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.toc__text {
+    margin-top: 30px;
+}
+
+.toc__line {
+    margin-top: 25px;
+    width: 190px;
+    border: 1px dashed rgba(8, 45, 58, 0.6);
+}
+
+.toc-content__wrap {
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.toc-chapter__head {
+    display: flex;
+    flex-wrap: nowrap;
+
+    margin-top: 22px;
+}
+
+.toc-chapter__head-text {
+    margin-left: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.toc-chapter__link {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.toc-chapter__text {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.toc-chapter__p-text {
+    margin-left: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.perosnal-info__wrap {
+    width: 100%;
+    height: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 45px;
+    background: rgba(8, 45, 58, 0.1);
+    
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.content__img {
+    width: 315px;
+    height: 420px;
+    
+}
+
+.personal-text__wrap {
+    margin-left: 25px;
+}
+
+.personal-text__p {
+    margin-top: 25px;
+}
+
+.personal-text__chapter-next {
+    margin-top: 35px;
+}
+
+.institute__wrap {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.institute__img {
+    width: 121px;
+    height: 121px;
+}
+
+.institute__text {
+    margin-left: 40px;
+}
+
+.institute__head {
+    padding-top: 30px;
+}
+
+.institute__head-next {
+    margin-top: 45px;
+}
+
+.institute__p {
+    margin-top: 25px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+.group__wrap {
+    background: rgba(8, 45, 58, 0.1);
+    padding: 30px 0 30px 0;
+}
+
+.group__c {
+    margin-top: 25px;
+}
+
+.group__p {
+    margin-top: 25px;
+    text-align: justify;
+}
+
+.group__c-next {
+    margin-top: 35px;
+}
+
+.button-s__link {
+    text-decoration: none;
+
+}
+
+.button-s__wrap {
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-s__size {
+    width: 152px;
+    height: 49px;
+    background: var(--primary-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button-s__text {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    
+
+    color: #ffffff;
+}
+
+

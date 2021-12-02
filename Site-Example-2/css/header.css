@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-color:#082D3A;
+     
+}
+
+.header-size {
+    width: 100%;
+    height: 554px;
+    
+
+}
+
+.header-top__wrap {
+    width: 100%;
+    height: 49px;
+    background-color: #fff;
+    
+}
+
+.header-top__container {
+    width: 1359px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon__wrap {
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--primary-color);
+    margin-top: 10px;
+}
+
+.menu__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button__link {
+    text-decoration: none;
+}
+
+.button__wrap {
+    padding: 16px 28px 17px 28px;
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    
+    
+}
+
+.button__wrap-last {
+    padding: 16px 28px 17px 28px;
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.button__wrap:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.button__wrap-last:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.header-bottom__wrap {
+    width: 100%;
+    height: 505px;
+    
+    background: url(../img/header.jpg);
+    
+}
+
+.header-bottom__container {
+    width: 1359px;
+    height: 505px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.header-bottom__text {
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 56px;
+    color: #fff;
+    
+}
+
+.header-bottom__desc {
+    font-family: Noto Sans;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.6);
+}

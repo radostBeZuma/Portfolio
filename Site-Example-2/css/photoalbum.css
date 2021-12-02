@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #082D3A;
+}
+
+.h2 {
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.h3 {
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.p {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--primary-color);
+     
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.photoalbum__wrap {
+    padding: 30px 0 30px 0;
+}
+
+.photo__wrap {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__wrap {
+    width: 370px;
+}
+
+.card__photo {
+    width: 370px;
+    height: 270px;
+    
+}
+
+.card__head-text {
+    margin-top: 20px;
+}
+
+.card__desc {
+    margin-top: 15px;
+    text-align: justify;
+
+}
+
+.photoalbum-table__content {
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+

@@ -1,0 +1,57 @@
+@import url('../css/important-style.css');
+
+.video-template__text {
+    padding: 20px 0 20px 0;
+}
+
+
+
+.content__wrap {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card__wrap {
+    width: 270px;
+    height: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-s__link {
+    text-decoration: none;
+
+}
+
+.button-s__wrap {
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-s__size {
+    width: 152px;
+    height: 49px;
+    background: var(--primary-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button-s__text {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    
+
+    color: #ffffff;
+}

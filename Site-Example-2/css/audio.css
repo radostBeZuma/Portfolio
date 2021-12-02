@@ -1,0 +1,20 @@
+@import url('../css/important-style.css');
+
+.audio__text-h{
+    padding: 20px 0 20px 0;
+}
+
+.audio__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls {
+    width: 600px;
+}
+
+.audio__text {
+    padding-left: 40px;
+    width: 50%;
+    text-align: justify;
+}
