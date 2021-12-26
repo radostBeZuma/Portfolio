@@ -1,0 +1,37 @@
+@import url("../css/resetandroot.css");
+@import url("../css/typography.css");
+
+.card-view__wrap {
+	/* width: 100px;
+	height: 100px; */
+	background-color: var(--smooky-white);
+}
+
+.container {
+	width: 999px;
+	padding: 30px 10px 30px 10px;
+}
+
+.card-view__line {
+	margin-top: 6px;
+	border: 1px dashed var(--purple);
+}
+
+.card-view__line_bottom {
+	margin-bottom: 20px;
+	border: 1px dashed var(--purple);
+}
+
+
+.card-view__text p:first-child {
+	margin-top: 10px;
+}
+
+.card-view__text p {
+	margin-top: 15px;
+}
+
+.mg-top {
+	margin-top: 20px;
+}
+

@@ -1,0 +1,89 @@
+/* typography style */
+h1 {
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 100%;
+}
+
+h2 {
+	font-family: 'Roboto';
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 100%;
+}
+
+h3 {
+	font-family: 'Roboto';
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 100%;
+	letter-spacing: 7%;
+}
+
+.p-body {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 110%; 
+	letter-spacing: 7%;
+}
+
+.p-date {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 120%;
+	
+}
+
+.p-news {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	letter-spacing: 7%;
+}
+
+.p-news_view {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 120%;
+	letter-spacing: 7%;
+}
+
+.p-news_link {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 120%;
+	letter-spacing: 7%;
+}
+
+/* roboto-regular - cyrillic */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/roboto-v29-cyrillic-regular.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		 url('../fonts/roboto-v29-cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/roboto-v29-cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/roboto-v29-cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/roboto-v29-cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/roboto-v29-cyrillic-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-700 - cyrillic */
+  @font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/roboto-v29-cyrillic-700.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		 url('../fonts/roboto-v29-cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/roboto-v29-cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/roboto-v29-cyrillic-700.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/roboto-v29-cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/roboto-v29-cyrillic-700.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
